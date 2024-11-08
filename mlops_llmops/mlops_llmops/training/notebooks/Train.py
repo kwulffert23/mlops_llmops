@@ -117,7 +117,7 @@ import mlflow.lightgbm
 columns = [col for col in training_df.columns if col not in ['tpep_pickup_datetime', 'tpep_dropoff_datetime']]
 data = training_df.toPandas()[columns]
 
-train, test = train_test_split(data, random_state=123)
+train, test = train_test_split(data, random_state=23)
 X_train = train.drop(["fare_amount"], axis=1)
 X_test = test.drop(["fare_amount"], axis=1)
 y_train = train.fare_amount

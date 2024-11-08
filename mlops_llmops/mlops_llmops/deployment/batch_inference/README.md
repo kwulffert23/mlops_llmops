@@ -10,7 +10,7 @@ df = spark.table(
 ).drop("fare_amount")
 
 df.write.mode("overwrite").saveAsTable(
-    name="<catalog>.taxi_fair_model.feature_store_inference_input"
+    name="<catalog>.taxi_fare_model.feature_store_inference_input"
 )
 ```
 

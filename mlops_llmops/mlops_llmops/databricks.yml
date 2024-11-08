@@ -37,7 +37,7 @@ targets:
     workspace:
       host: https://adb-984752964297111.11.azuredatabricks.net
 
-  # kw_dev:
-  #   workspace:
-  #     host: https://adb-984752964297111.11.azuredatabricks.net
+  kw_test:
+    workspace:
+      host: https://adb-984752964297111.11.azuredatabricks.net
 

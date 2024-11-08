@@ -17,7 +17,7 @@ resources:
       model:
         name: ${var.model_name}
         catalog_name: ${bundle.target}
-        schema_name: taxi_fair_model
+        schema_name: taxi_fare_model
         comment: Registered model in Unity Catalog for the "mlops_llmops" ML Project for ${bundle.target} deployment target.
         <<: *grants
 
